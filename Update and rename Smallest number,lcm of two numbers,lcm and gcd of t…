@@ -1,0 +1,31 @@
+n1=float(input())
+n2=float(input())
+n3=float(input())
+if (n1<n2) and (n1<n2)
+    smallest=n1
+elif (n2<n1) and (n2<n3)
+    smallest=n2
+else:
+    smallest=n3
+print("smallest number is",smallest)
+#lcm of two numbers
+def lcm(x, y):  
+   if x > y:  
+       greater = x  
+   else:  
+       greater = y  
+  while(True):  
+       if((greater % x == 0) and (greater % y == 0)):  
+           lcm = greater  
+           break  
+       greater += 1  
+   return lcm  
+
+
+from math import
+
+#lcm and gcd of three numbers
+
+def lcm(a,b,c):
+          gcd2=gcd(b,c)
+          gcd3=gcd(a,gcd2)
